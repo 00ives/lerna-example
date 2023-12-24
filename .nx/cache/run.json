@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "cli run test --scope=header",
+    "startTime": "2023-12-24T18:44:28.955Z",
+    "endTime": "2023-12-24T18:44:29.017Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "header:test",
+      "target": "test",
+      "projectName": "header",
+      "hash": "351904034155275102",
+      "startTime": "2023-12-24T18:44:28.963Z",
+      "endTime": "2023-12-24T18:44:29.011Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}

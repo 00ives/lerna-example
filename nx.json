@@ -6,7 +6,9 @@
       "options": {
         "cacheableOperations": [
           "build",
-          "test"
+          "test",
+          "dev",
+          "start"
         ]
       }
     }
@@ -24,23 +26,26 @@
   },
   "targetDefaults": {
     "build": {
-      "inputs": [
-        "prod",
-        "^prod"
-      ],
       "dependsOn": [
         "^build"
       ]
     },
     "test": {
-      "inputs": [
-        "default",
-        "^prod"
+      "dependsOn": [
+        "^test"
+      ],
+      "outputs": [
+        "{projectRoot}/y"
       ]
     },
     "dev": {
       "dependsOn": [
-        "^build"
+        "^dev"
+      ]
+    },
+    "start": {
+      "dependsOn": [
+        "^start"
       ]
     }
   }

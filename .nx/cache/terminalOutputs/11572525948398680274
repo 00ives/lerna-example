@@ -1,0 +1,29 @@
+
+> footer@0.0.0 build
+> rimraf dist && rollup --config
+
+[1m[31m[!] [1mError: Cannot find module 'rollup-plugin-typescript2'
+Require stack:
+- C:\Users\ivorl\Documents\code\lerna\getting-started-example\packages\footer\rollup.config.js
+- C:\Users\ivorl\node_modules\rollup\dist\shared\loadConfigFile.js
+- C:\Users\ivorl\node_modules\rollup\dist\bin\rollup[22m[1m[39m[22m
+[2mError: Cannot find module 'rollup-plugin-typescript2'
+Require stack:
+- C:\Users\ivorl\Documents\code\lerna\getting-started-example\packages\footer\rollup.config.js
+- C:\Users\ivorl\node_modules\rollup\dist\shared\loadConfigFile.js
+- C:\Users\ivorl\node_modules\rollup\dist\bin\rollup
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1053:15)
+    at Module._load (node:internal/modules/cjs/loader:898:27)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/helpers:112:18)
+    at Object.<anonymous> (C:\Users\ivorl\Documents\code\lerna\getting-started-example\packages\footer\rollup.config.js:5:18)
+    at Module._compile (node:internal/modules/cjs/loader:1239:14)
+    at require.extensions.<computed> [as .js] (C:\Users\ivorl\node_modules\rollup\dist\shared\loadConfigFile.js:513:20)
+    at Module.load (node:internal/modules/cjs/loader:1096:32)
+    at Module._load (node:internal/modules/cjs/loader:935:12)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)[22m
+
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: footer@0.0.0 
+npm ERR!   at location: C:\Users\ivorl\Documents\code\lerna\getting-started-example\packages\footer 

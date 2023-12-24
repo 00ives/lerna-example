@@ -1,0 +1,10 @@
+
+> remixapp@0.0.0 build
+> remix build
+
+'remix' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: remixapp@0.0.0 
+npm ERR!   at location: C:\Users\ivorl\Documents\code\lerna\getting-started-example\packages\remixapp 
